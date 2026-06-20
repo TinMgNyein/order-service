@@ -1,4 +1,4 @@
-# Order Service
+## Order Service
 
 NestJS API service for the workshop POS demo.
 
