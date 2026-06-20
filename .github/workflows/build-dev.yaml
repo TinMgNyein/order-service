@@ -36,7 +36,7 @@ jobs:
           file: ./deployment/Dockerfile.dev
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: ghcr.io/TinMgNyein/order-service:${{ steps.tag-version.outputs.version }}
+          tags: ghcr.io/tinmgnyein/order-service:${{ steps.tag-version.outputs.version }}
 
       # - name: Checkout Kustomize chart Repository
       #   uses: actions/checkout@v3
